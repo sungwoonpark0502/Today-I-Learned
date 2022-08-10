@@ -128,3 +128,8 @@ employee_file.close()
 import name_of_pythonfile
 # now I can use the functions from the imported python file
 ```
+How to use Modules made by 3rd party
+```python
+# pip install nameofthepymodule
+# now use import ~~
+```
