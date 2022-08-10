@@ -58,16 +58,24 @@ is_male = True
 Basic For Loops
 ```python
   for letter in "James":
-    print(letter) => "prints J a m e s"
+    print(letter) => prints J a m e s
 ```
 
 Using Lists
 ```python
   friend = ["James", "Bob", "Peter"]
   for friend in friends:
-    print(friend) => "prints James Bob Peter"
+    print(friend) => prints James Bob Peter
 ```
+Using Range
 ```python
   for index in range(5):
     print(index) => prints 0 1 2 3 4
+    
+  for index in range(3,5):
+    print(index) => prints 3 4
+    
+  friend = ["James", "Bob", "Peter"]
+  for index range((len(friends))):
+    print(friends[index]) => prints James Bob Peter
 ```
