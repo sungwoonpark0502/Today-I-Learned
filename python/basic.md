@@ -153,3 +153,11 @@ student1 = Student("James", "Computer Science", 4.0, False) // Creating a studen
 print(student1.name) # prints James
 print(student1.gpa) # prints 4.0
 ```
+## Inheritance
+```python
+# chef.py
+from Chef import Chef
+class Chef(nameofclass): # inherits the class nameofclass, which means class Chef can use all the functions in nameofclass
+
+# now we can override the function to change its role
+```
