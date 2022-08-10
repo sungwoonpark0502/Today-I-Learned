@@ -23,6 +23,16 @@ List of Tuples:
   print(coordinates[0])
   <!--  returns 10  -->
 ```
+2D Lists
+```python
+  number_grid = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9],
+    [0]
+  ]
+  print(number_grid[2][1]) => prints 8
+```
 
 ## Dictionaries
 * Key and Value
