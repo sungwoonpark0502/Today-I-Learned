@@ -91,3 +91,22 @@ except:
   # If the input is a letter of alphabets, except block will be executed because it needs to be a integer number
 ```
 
+## Reading Files
+```python
+open("nameOfTheFile.txt", "r") # r means to read
+open("nameOfTheFile.txt", "w") # w means write and can change
+open("nameOfTheFile.txt", "a") # a means append, cannot change but can add
+open("nameOfTheFile.txt", "r+") # r+ means read and write
+```
+```python
+employee_file = open("employees.txt", "r")
+  print(employee_file.readable()) # will print True b/c is on "r"
+  print(employee_file.readline()) # reads the first line
+  print(employee_file.readline()) # reads the second line
+  
+  print(employee_file.readlines()) # takes all the line and put them in an array
+  print(employee_file.readlines()[1]) # prints the second line/element
+  
+  
+employee_file.close()
+```
