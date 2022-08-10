@@ -1,1 +1,0 @@
-# Fact about Python
