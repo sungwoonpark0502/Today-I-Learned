@@ -47,3 +47,6 @@ When I want to make chagnes to the open source code on github
 
 Pull Request
  * If I want to let the original developer the change I made
+
+
+git pull --rebase origin master git push origin master
