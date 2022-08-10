@@ -79,3 +79,6 @@ Using Range
   for index range((len(friends))):
     print(friends[index]) => prints James Bob Peter
 ```
+
+## 2D Lists
+
