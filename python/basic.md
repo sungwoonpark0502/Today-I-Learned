@@ -8,8 +8,7 @@ Basic Function
   def say_hi():
     print("Hi")
   
-  say_hi()
-<!--  prints "Hi"  -->
+  say_hi() # prints "Hi"
 ```
 
 Having a parameter
@@ -17,8 +16,7 @@ Having a parameter
     def say_hi(name):
     print("Hi " + name)
   
-  say_hi("James")
-<!--  prints "Hi James"  -->
+  say_hi("James") # prints "Hi James"
 ```
 
 ## If Statement
@@ -58,26 +56,26 @@ is_male = True
 Basic For Loops
 ```python
   for letter in "James":
-    print(letter) => prints J a m e s
+    print(letter) # prints J a m e s
 ```
 
 Using Lists
 ```python
   friend = ["James", "Bob", "Peter"]
   for friend in friends:
-    print(friend) => prints James Bob Peter
+    print(friend) # prints James Bob Peter
 ```
 Using Range
 ```python
   for index in range(5):
-    print(index) => prints 0 1 2 3 4
+    print(index) # prints 0 1 2 3 4
     
   for index in range(3,5):
-    print(index) => prints 3 4
+    print(index) # prints 3 4
     
   friend = ["James", "Bob", "Peter"]
   for index range((len(friends))):
-    print(friends[index]) => prints James Bob Peter
+    print(friends[index]) # prints James Bob Peter
 ```
 
 ## Try Except
@@ -107,6 +105,26 @@ employee_file = open("employees.txt", "r")
   print(employee_file.readlines()) # takes all the line and put them in an array
   print(employee_file.readlines()[1]) # prints the second line/element
   
+  print(employee_file.read()) # prints all the texts
   
 employee_file.close()
+```
+```python
+employee_file = open("employees.txt", "r")
+for employee in employee_file.readlines():
+  print(employee)
+employee_file.close()
+```
+## Writing to Files
+```python
+  employee_file = open("employees.txt", "a") // use "a" to append
+  employee_file.write("James - Developer") // appends to the file
+   employee_file.write("\nJames - Software Engineer") // appends to the file with a new line
+  employee_file.close()
+```
+
+## Modules & Pip
+```python
+import name_of_pythonfile
+# now I can use the functions from the imported python file
 ```
