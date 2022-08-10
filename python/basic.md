@@ -53,3 +53,9 @@ is_male = True
     print(i)
     i += 1
 ```
+
+## For Loop
+```python
+  for letter in "James":
+    print(letter) => "prints J a m e s"
+```
