@@ -9,4 +9,5 @@ How to make a function:
     print("Hi")
   
   say_hi()
+<!--  prints "Hi"  -->
 ```
