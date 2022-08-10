@@ -2,11 +2,22 @@
 
 ## Tuples
 * Type of data structure
-* Cannot change any of the element once initialized
+* Immutable (Cannot change any of the element once initialized)
 
 How to create a tuple
 ```python
   coordinates = (4, 5)
+  <!--  coordinates[0] = 10 is not allowed  -->
   print(coordinates[0])
-<!--  result = 4  -->
+  <!--  returns 4  -->
+```
+
+## Lists
+* Mutable (can change the elements)
+
+```python
+  coordinates = [4, 5]
+  coordinates[0] = 10
+  print(coordinates[0])
+  <!--  returns 10  -->
 ```
