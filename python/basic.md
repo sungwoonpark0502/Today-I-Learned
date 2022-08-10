@@ -46,4 +46,10 @@ is_male = True
   number = float(input("Enter a number: "))
 ```
 
-## Basic Facts
+## While Loop
+```python
+  i = 1
+  while i <= 10:
+    print(i)
+    i += 1
+```
