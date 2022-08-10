@@ -8,12 +8,77 @@ Largest to smallest
 ###### Heading 6
 
 <Italics>
-*This text*
+*text*
 OR
-_This text_
+_text_
 
 <Strong>
-**This text**
-__This text__
+**text**
+OR
+__text__
 
 <Strikethrough>
+~~text~~
+
+<Horizontal Line(Rule)>
+---
+OR
+___
+
+Use \ to show. Ex) \*text\* will not show in italics but *text*
+
+<Blockquote>
+Gives you a background. Similar to a block that is separated from the rest
+> text
+
+<Links>
+[Name of the link](url)
+[Name of the link](url "text that shows up when u hover")
+
+<Unordered Lists>
+* Item 1
+* Item 2
+* Item 3
+  * Nested Item 1
+  * Nested Item 2
+
+<Ordered Lists>
+1. Item 1
+1. Item 2
+1. Item 3
+
+<Inline Code Block>
+`<p>This is a paragraph</p>`
+
+<Images>
+![Name of the Image](location of image OR url)
+
+<Github Markdown>
+Similar to the blockquote. Generates a block that separates from the rest
+```bash
+npm install
+npm start
+```
+
+```javascript
+  function add(num1, num2){
+  return num1 + num2;
+  }
+```
+
+```python
+  def add(num1 + num2):
+    return num1 + num2
+```
+
+<Table>
+| Header | Header | Header | Header | Header |
+|---|---|---|---|---|
+| A  | B  | C  | D  | E  | F
+| A  | B  | C  | D  | E  | F
+| A  | B  | C  | D  | E  | F
+
+<Task Lists>
+Check boxes
+* [x] Task 1 (Task Complete)
+* [ ] Task 2 (Task Incomplete)
