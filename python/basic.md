@@ -22,3 +22,21 @@ Having a parameter
   say_hi("James")
 <!--  prints "Hi James"  -->
 ```
+
+## If Statement
+
+```python
+is_male = True
+  if is_male:
+    print("You are a male")
+  else:
+    print("You are not a male")
+```
+```python
+  if ~~ and ~~:
+    return ~~
+  elif ~~ and ~~:
+    return ~~
+   else:
+    return ~~
+```
