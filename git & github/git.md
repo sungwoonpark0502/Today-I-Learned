@@ -17,6 +17,8 @@
     * will take back to master branch
   * type3: git checkout (name of the branch)
     * will go the specified branch
+* __git checkout -b__ = make new branch
+  * type: git checkout -b (name of the new branch)
 * __git branch__ = shows which branch I am in
 * __git branch (name of the branch)__ = create new branch
 * __git merge__ = merge one branch to the other
