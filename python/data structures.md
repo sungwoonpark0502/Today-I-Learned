@@ -23,3 +23,16 @@ List of Tuples:
   print(coordinates[0])
   <!--  returns 10  -->
 ```
+
+## Dictionaries
+* Key and Value
+* Keys cannot be a duplicate, should be unique
+
+Creating a dictionary
+```python
+  monthConversions = {
+    "Jan": "January",
+    "Feb": "February"
+<!--   Jan is the Key and January is a value   -->
+  }
+```
