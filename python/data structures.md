@@ -6,7 +6,7 @@
 How to create a tuple:
 ```python
   coordinates = (4, 5)
-  <!--  coordinates[0] = 10 is not allowed  -->
+  # coordinates[0] = 10 is not allowed
   print(coordinates[0]) # prints 4
 ```
 List of Tuples:
