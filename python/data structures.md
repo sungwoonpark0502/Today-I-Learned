@@ -7,8 +7,7 @@ How to create a tuple:
 ```python
   coordinates = (4, 5)
   <!--  coordinates[0] = 10 is not allowed  -->
-  print(coordinates[0])
-  <!--  returns 4  -->
+  print(coordinates[0]) # prints 4
 ```
 List of Tuples:
 ```python
@@ -20,8 +19,7 @@ List of Tuples:
 ```python
   coordinates = [4, 5]
   coordinates[0] = 10
-  print(coordinates[0])
-  <!--  returns 10  -->
+  print(coordinates[0]) # prints 10 
 ```
 2D Lists
 ```python
@@ -31,7 +29,7 @@ List of Tuples:
     [7,8,9],
     [0]
   ]
-  print(number_grid[2][1]) => prints 8
+  print(number_grid[2][1]) # prints 8
 ```
 
 ## Dictionaries
@@ -43,11 +41,11 @@ Creating a dictionary
   monthConversions = {
     "Jan": "January",
     "Feb": "February"
-    <!--   Jan is the Key and January is a value   -->
+   # Jan is the Key and January is a value
   }
-  print(monthConversions["Jan"]) => January
-  print(monthConversions.get("Feb")) => February
-  print(monthConversions.get("Mar")) => None
-  print(monthConversions.get("Mar", "Not a valid Key")) => Not a valid Key
+  print(monthConversions["Jan"]) # January
+  print(monthConversions.get("Feb")) # February
+  print(monthConversions.get("Mar")) # None
+  print(monthConversions.get("Mar", "Not a valid Key")) # Not a valid Key
 
 ```
