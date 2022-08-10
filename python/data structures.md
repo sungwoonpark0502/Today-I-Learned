@@ -1,7 +1,6 @@
 # Data Structures
 
 ## Tuples
-* Type of data structure
 * Immutable (Cannot change any of the element once initialized)
 
 How to create a tuple:
