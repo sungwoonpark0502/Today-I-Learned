@@ -88,6 +88,6 @@ Using Range
   except:
     print("Invalid Input")
     
-<!--  If the input is a letter of alphabets, except block will be executed   -->
+#If the input is a letter of alphabets, except block will be executed
 ```
 
