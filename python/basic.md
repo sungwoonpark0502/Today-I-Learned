@@ -55,7 +55,19 @@ is_male = True
 ```
 
 ## For Loop
+Basic For Loops
 ```python
   for letter in "James":
     print(letter) => "prints J a m e s"
+```
+
+Using Lists
+```python
+  friend = ["James", "Bob", "Peter"]
+  for friend in friends:
+    print(friend) => "prints James Bob Peter"
+```
+```python
+  for index in range(5):
+    print(index) => prints 0 1 2 3 4
 ```
