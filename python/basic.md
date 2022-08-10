@@ -133,3 +133,23 @@ How to use Modules made by 3rd party
 # pip install nameofthepymodule
 # now use import ~~
 ```
+## Classes & Objects
+profile.py
+```python
+class Student:
+  
+  def __init__(self, name, major, gpa, is_on_probation):
+    self.name = name
+    self.major = major
+    self.gpa = gpa
+    self.is_on_probation = is_on_probation 
+```
+Using Student Class
+```python
+from profile import Student
+
+student1 = Student("James", "Computer Science", 4.0, False) // Creating a student object
+
+print(student1.name) # prints James
+print(student1.gpa) # prints 4.0
+```
