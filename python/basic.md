@@ -161,3 +161,8 @@ class Chef(nameofclass): # inherits the class nameofclass, which means class Che
 
 # now we can override the function to change its role
 ```
+## Python Interpreter
+On the Terminal
+```terminal
+asdas
+```
