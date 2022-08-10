@@ -80,5 +80,14 @@ Using Range
     print(friends[index]) => prints James Bob Peter
 ```
 
-## 2D Lists
+## Try Except
+```python
+  try:
+    number = int(input("Enter a number: "))
+    print(number)
+  except:
+    print("Invalid Input")
+    
+<!--  If the input is a letter of alphabets, except block will be executed   -->
+```
 
