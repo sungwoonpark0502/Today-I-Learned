@@ -4,7 +4,7 @@
   * To find out where we are in the terminal
   * type: pwd
 * __open__
-  * open (whatever pwd returns)
+  * type: open (whatever pwd returns)
 * __ls__ = list
   * prints all the directories in the directory we are in now
   * type: ls
@@ -18,4 +18,7 @@
 * clear = clears the terminal
   * shortcut: command + k
   * type: clear
-* __cd ~__  
+* __cd ~__ = change back to home directory, initial directory
+  * type: cd ~
+* __touch__ = make new file
+  * type: touch (name of the file)
