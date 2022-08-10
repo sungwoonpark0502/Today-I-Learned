@@ -164,5 +164,7 @@ class Chef(nameofclass): # inherits the class nameofclass, which means class Che
 ## Python Interpreter
 On the Terminal
 ```terminal
-asdas
+python3 #enter
+
+# now we can write python code
 ```
