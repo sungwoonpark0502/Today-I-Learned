@@ -45,3 +45,5 @@ is_male = True
   age = int(input("Enter your name: "))
   number = float(input("Enter a number: "))
 ```
+
+## Basic Facts
