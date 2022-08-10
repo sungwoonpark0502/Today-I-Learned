@@ -82,12 +82,12 @@ Using Range
 
 ## Try Except
 ```python
-  try:
+try:
     number = int(input("Enter a number: "))
     print(number)
-  except:
+except:
     print("Invalid Input")
     
-# If the input is a letter of alphabets, except block will be executed
+  # If the input is a letter of alphabets, except block will be executed because it needs to be a integer number
 ```
 
