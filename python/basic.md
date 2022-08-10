@@ -4,6 +4,6 @@
 Type of data structure
 
 How to create a tuple
-'''python
+```python
   coordinates = (4, 5)
-'''
+```
