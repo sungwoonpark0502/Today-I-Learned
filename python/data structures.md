@@ -35,5 +35,9 @@ Creating a dictionary
     "Feb": "February"
     <!--   Jan is the Key and January is a value   -->
   }
-  print(monthConversions["Jan"]) ==>January
+  print(monthConversions["Jan"]) => January
+  print(monthConversions.get("Feb")) => February
+  print(monthConversions.get("Mar")) => None
+  print(monthConversions.get("Mar", "Not a valid Key")) => Not a valid Key
+
 ```
