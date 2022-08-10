@@ -11,6 +11,10 @@ How to create a tuple
   print(coordinates[0])
   <!--  returns 4  -->
 ```
+List of Tuples
+```python
+  coord = [(1,2), (3,4), (4,5)]
+```
 
 ## Lists
 * Mutable (can change the elements)
