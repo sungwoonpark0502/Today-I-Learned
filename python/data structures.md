@@ -33,6 +33,7 @@ Creating a dictionary
   monthConversions = {
     "Jan": "January",
     "Feb": "February"
-<!--   Jan is the Key and January is a value   -->
+    <!--   Jan is the Key and January is a value   -->
   }
+  print(monthConversions["Jan"]) ==>January
 ```
