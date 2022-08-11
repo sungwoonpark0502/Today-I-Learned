@@ -30,3 +30,9 @@
 2. git status => see the changes or new files added
 3. git add . => add all the files
 4. git commit -m "changed" => commit
+
+Clone = Bring a repo that is hosted somewhere like Github into a folder on your local machine
+add = track your files and changes in Git
+commit = save your files in Git
+push = upload Git commits to a remote repo, like GitHub
+pull = download changes from remote repo to your local machine, the opposite of push
