@@ -25,6 +25,6 @@ for(Integer i : set){
 // Using Iterator
 Iterator iter = set.iterator();
 while(iter.hasNext()){
-  System.out.print(iter.next() + " ");
+  System.out.print(iter.next() + " "); // if set = [1,2,5], result: 1 2 5
 }
 ```
