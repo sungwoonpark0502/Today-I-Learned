@@ -1,6 +1,6 @@
 # Data Structures
 
-### Hash Map
+### HashSet
 * Constant Time
 * Unordered
 * No duplicates allowed
