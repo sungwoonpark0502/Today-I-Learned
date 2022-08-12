@@ -1,6 +1,8 @@
 # Javascript
 
-## Printing and Commenting
+## Basics
+
+### Printing and Commenting
 
 ```javascript
 // printing hello world
@@ -12,7 +14,7 @@ Hello
 World
 */
 ```
-## Data Types and Variables
+### Data Types and Variables
 
 Data Types: undefined, null, boolean, string, symbol, number, and object
 * symbol: immutable primitive value that is unique
@@ -27,8 +29,8 @@ myName = "James"
 myName = 10 // can change it
 
 let myName = "Sungwoon"
-myName = "James" // can change it
-myName = 10
+myName = "James"
+myName = 10 // can change it
 
 // constant variable
 const pi = 3.14
@@ -36,3 +38,5 @@ const pi = 3.14
 Difference between var and let:
 * var is going to be used througout the whole program
 * let is going to be used in the scope of where I declared it
+
+### Storing 
