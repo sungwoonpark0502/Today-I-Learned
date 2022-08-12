@@ -1,9 +1,9 @@
-# Data Structures
+# HashSet
 
-### HashSet
 * Constant Time
 * Unordered
-* No duplicates allowed
+* Duplicates NOT allowed
+* Nulls allowed
 
 ```java
 import java.util.HashSet;
