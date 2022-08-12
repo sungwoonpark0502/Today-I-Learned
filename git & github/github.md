@@ -47,11 +47,18 @@ git diff (name of the branch you want to compare with)
 git merge (name of the branch that you want to merge to)
 
 ```
-
-undo add
+### Undo
+```command
+# Undo Add Command
 git reset
+OR
 git reset (name of the file)
-undo commit
-git reset HEAD~1 
 
+# Undo Commit
+git reset HEAD~1
+```
+
+### History of Commits
+```command
 git log
+```
