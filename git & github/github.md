@@ -4,19 +4,23 @@
 ```terminal
 git init
 git commit -m "commit message"
-git branch -M main (not sure if needed)
-git remote add origin (url.git) => use "git remote -v" to check
-git push -u origin master (origan = location of the git repository, master = name of the branch)
+git branch -M main
+git remote add origin (url.git) # use "git remote -v" to check
+git push -u origin master # origan = location of the git repository, master = name of the branch)
 ```
 
-Push an existing repository from the command line
+### Push an existing repository from the command line
 ```terminal
 git remote add (url.git)
 git branch -M main (not sure if needed)
 git push -u origin master(master could be diff depending on which branch ur in)
 ```
 
+### Update Chnage to GitHub
 
+```terminal
+git 
+```
 
 Update Change
 1. git status = to see the changes
