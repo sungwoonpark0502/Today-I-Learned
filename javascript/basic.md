@@ -54,6 +54,10 @@ var myBar = 10;
 mybar++;
 // decrementing
 myBar--;
+// add 5 to myBar
+myBar += 5;
+// substract 5 from myBar
+myBar -= 5;
 
 // you can use decimal numbers to store variables
 var floatNum = 1.5;
