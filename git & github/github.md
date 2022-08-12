@@ -1,9 +1,12 @@
 # GitHub
 
 Create a new repository on the command line
-₩₩₩python
-dasds
-₩₩₩
+```terminal
+git init
+```
+```console
+git init
+```
 1. git init
 2. git commit -m "commit message"
 3. git branch -M main (not sure if needed)
