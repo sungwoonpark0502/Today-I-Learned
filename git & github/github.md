@@ -1,6 +1,6 @@
 # GitHub
 
-## Create a new repository on the command line
+### Create a new repository on the command line
 ```terminal
 1. git init
 2. git commit -m "commit message"
@@ -44,4 +44,3 @@ undo commit
 git reset HEAD~1 
 
 git log
-=
