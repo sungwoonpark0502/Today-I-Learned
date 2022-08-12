@@ -1,6 +1,6 @@
 # Javascript
 
-##Printing Hello World
+## Printing Hello World
 ```javascript
 console.log("Hello World")
 ```
