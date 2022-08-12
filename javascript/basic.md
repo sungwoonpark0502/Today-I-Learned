@@ -1,6 +1,6 @@
 # Javascript
 
-## Basics
+## Printing and Commenting
 
 ```javascript
 // printing hello world
@@ -12,7 +12,7 @@ Hello
 World
 */
 ```
-# Data Types and Variables
+## Data Types and Variables
 
 Data Types: undefined, null, boolean, string, symbol, number, and object
 symbol: immutable primitive value that is unique
