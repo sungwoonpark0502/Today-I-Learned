@@ -20,27 +20,33 @@ git push -u origin master # master could be diff depending on which branch you'r
 ```command
 git status # to see the changes
 git add . # add every changes
+OR
+git add (name of the file) # only add the written file
 git commit -m "update message" # commit
 git push origin (name of the branch)
 OR
 git push -u origin (name of branch) # next time when pushing, use "git push" 
 ```
 
-Change to other branch
-* git checkout (name of the branch I want to change to)
-Make new branch
-* git checkout -b (name of new branch)
-Showing which branch I'm in
-* git branch
-Deleting branch
-* git branch -d (name of the branch I want to delete)
+### Branch
+```command
+# Change to Other Branch
+git checkout (name of branch I want to change to)
 
-Merging two branches
-git diff (name of the branch you want to compare with) = shows what's been changed
-git merge (name of the new branch)
+# Make New Branch
+git checkout -b (name of new branch)
 
-solving merge conflict
-* deleting the conflict markers
+# Deleting Branch
+git branch -d (name of the branch I want to delete)
+
+# Display which Branch I'm in
+git branch
+
+# Merging
+git diff (name of the branch you want to compare with)
+git merge (name of the branch that you want to merge to)
+
+```
 
 undo add
 git reset
