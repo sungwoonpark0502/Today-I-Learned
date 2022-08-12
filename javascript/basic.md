@@ -58,6 +58,10 @@ myBar--;
 myBar += 5;
 // substract 5 from myBar
 myBar -= 5;
+// multiply 5 to myBar
+myBar *= 5;
+// divide myBar by 5
+myBar /= 5;
 
 // you can use decimal numbers to store variables
 var floatNum = 1.5;
