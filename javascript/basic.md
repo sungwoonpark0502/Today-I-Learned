@@ -15,14 +15,11 @@ World
 ## Data Types and Variables
 
 Data Types: undefined, null, boolean, string, symbol, number, and object
-
-symbol: immutable primitive value that is unique
-
+Symbol: immutable primitive value that is unique
 undefined: has not been defined
-
 null: nothing
-
 object: stores key and value pairs
+
 ```javascript
 // declaring variable
 var myName = "Sungwoon"
