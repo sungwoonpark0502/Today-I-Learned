@@ -1,6 +1,8 @@
 # Javascript
 
-## Printing Hello World
+## Basics
+
 ```javascript
+// printing hello world
 console.log("Hello World")
 ```
