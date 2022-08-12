@@ -10,10 +10,10 @@ git push -u origin master # origan = location of the git repository, master = na
 ```
 
 ### Push an existing repository from the command line
-```terminal
+```command
 git remote add (url.git)
 git branch -M main (not sure if needed)
-git push -u origin master(master could be diff depending on which branch ur in)
+git push -u origin master # master could be diff depending on which branch you're in
 ```
 
 ### Update Chnage to GitHub
