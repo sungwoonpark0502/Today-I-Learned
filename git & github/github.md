@@ -1,17 +1,13 @@
 # GitHub
 
-Create a new repository on the command line
+##Create a new repository on the command line
 ```terminal
-git init
-```
-```console
-git init
-```
 1. git init
 2. git commit -m "commit message"
 3. git branch -M main (not sure if needed)
 4. git remote add origin (url.git) => use "git remote -v" to check
 5. git push -u origin master (origan = location of the git repository, master = name of the branch)
+```
 
 Push an existing repository from the command line
 1. git remote add (url.git)
