@@ -17,11 +17,11 @@ git push -u origin master # master could be diff depending on which branch you'r
 ```
 
 ### Update Chnage to GitHub
-```terminal
+```command
 git status # to see the changes
 git add . # add every changes
 git commit -m "update message" # commit
-git push origin (name of the branch) OR git push -u origin (name of branch) # next time when pushing, use "git push" 
+git push origin (name of the branch) __OR__ git push -u origin (name of branch) # next time when pushing, use "git push" 
 ```
 
 Change to other branch
