@@ -1,7 +1,20 @@
 # Git
 
-* __git init__ = initialize repository
-* __git status__ = check the status of the repo(repository)
+### Initialize Repository
+```command
+git init
+```
+### Check Status
+```command
+git status
+```
+### Add File(s) to the Staging Area
+```command
+# Used when there has been a change or a new file
+git add . # adds all the changed/new files
+OR
+git add (name of the file)
+```
 * __git add__ = add the file to the staging area
   * Used when there has been a change or a new file
   * type: git add (name of the file)
