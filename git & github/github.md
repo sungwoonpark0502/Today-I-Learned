@@ -63,4 +63,5 @@ git reset HEAD~1
 git log
 ```
 
+### Things to Know
 * Can use git commit -am "message" when there are only modified files, no untracked files
