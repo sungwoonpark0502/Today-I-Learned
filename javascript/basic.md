@@ -1,19 +1,5 @@
 # Javascript
 
-## Basics
-
-### Printing and Commenting
-
-```javascript
-// printing hello world
-console.log("Hello World");
-
-// multi-line comment
-/* 
-Hello
-World
-*/
-```
 ### Data Types and Variables
 
 Data Types: undefined, null, boolean, string, symbol, number, and object
@@ -41,6 +27,15 @@ Difference between var and let:
 
 ### Basic Concepts
 ```javascript
+// printing hello world
+console.log("Hello World");
+
+// multi-line comment
+/* 
+Hello
+World
+*/
+
 // addition
 var num = 1 + 1;
 // substraction
