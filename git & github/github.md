@@ -2,17 +2,20 @@
 
 ### Create a new repository on the command line
 ```terminal
-1. git init
-2. git commit -m "commit message"
-3. git branch -M main (not sure if needed)
-4. git remote add origin (url.git) => use "git remote -v" to check
-5. git push -u origin master (origan = location of the git repository, master = name of the branch)
+git init
+git commit -m "commit message"
+git branch -M main (not sure if needed)
+git remote add origin (url.git) => use "git remote -v" to check
+git push -u origin master (origan = location of the git repository, master = name of the branch)
 ```
 
 Push an existing repository from the command line
-1. git remote add (url.git)
-2. git branch -M main (not sure if needed)
-3. git push -u origin master(master could be diff depending on which branch ur in)
+```terminal
+git remote add (url.git)
+git branch -M main (not sure if needed)
+git push -u origin master(master could be diff depending on which branch ur in)
+```
+
 
 
 Update Change
