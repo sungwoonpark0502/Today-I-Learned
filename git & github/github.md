@@ -12,21 +12,17 @@ git push -u origin master # origan = location of the git repository, master = na
 ### Push an existing repository from the command line
 ```command
 git remote add (url.git)
-git branch -M main (not sure if needed)
+git branch -M main # (not sure if needed)
 git push -u origin master # master could be diff depending on which branch you're in
 ```
 
 ### Update Chnage to GitHub
-
 ```terminal
-git 
+git status # to see the changes
+git add . # add every changes
+git commit -m "update message" # commit
+git push origin (name of the branch) OR git push -u origin (name of branch) # next time when pushing, use "git push" 
 ```
-
-Update Change
-1. git status = to see the changes
-2. git add . = add every changes
-3. git commit -m "update message" = commit
-4. git push origin (name of the branch) OR git push -u origin (name of branch) = next time when pushing, use "git push"
 
 Change to other branch
 * git checkout (name of the branch I want to change to)
