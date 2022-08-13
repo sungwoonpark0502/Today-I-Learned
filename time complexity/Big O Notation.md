@@ -44,4 +44,4 @@ for(int i = 0; i < array.length; i++){
  }
 
  ```
-![Data Structure Operations]([location of image OR url](https://user-images.githubusercontent.com/93812258/184476914-b0c1a7c6-1584-4795-a7a3-0b2ac71fdfdd.png))
+![Data Structure Operations]([https://user-images.githubusercontent.com/93812258/184476914-b0c1a7c6-1584-4795-a7a3-0b2ac71fdfdd.png])
