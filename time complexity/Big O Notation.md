@@ -6,11 +6,15 @@ __Big O Notation:__
 
 ## O(1): Constant Time Complexity
 * Will always take same amount of time to be executed no matter the size of an input.
+* Has Least complexity
 
 ```java
 // Example 1: Accessing an array
 int[] array = {1,2,3,4,5};
 array[2]; // => 3
+
+// Example 2: adding an item to an array
+ array[n++] = 6;
 ```
 
 ## O(n): Linear time complexity
@@ -47,8 +51,14 @@ for(int i = 0; i < array.length; i++){
  ```
  __Types of O(n^2)__
 * Selection Sort: iterates through the list to ensure every element at index i is the ith smallest/largest element of the list
+* Bublle Sort: 
+
+## O(n log n)
 
 
- ## Data Structure Operations
+## Big O Notation Graph
+![Big O Notation Graph](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/)
+
+## Data Structure Operations
 ![Data Structure Operations](https://user-images.githubusercontent.com/93812258/184476914-b0c1a7c6-1584-4795-a7a3-0b2ac71fdfdd.png)
 (From https://www.bigocheatsheet.com/)
