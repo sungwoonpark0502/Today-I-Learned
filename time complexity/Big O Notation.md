@@ -12,6 +12,19 @@ array[2]; // => 3
 ```
 
 ## O(n): Linear time complexity
+* Time needed to execute the algorithm is directly proportional to the input size n
+* Simple example is reading a book with n pages
+
+```java
+// Linear Search
+int[] array = {1,2,3,4,5};
+
+for(int i = 0; i < array.length; i++){
+  System.out.println(array[i]);
+}
+```
+
+
 ## O(log n): Logarithmic time complexity
 ## O(n^2): Quadratic time complexity
  
