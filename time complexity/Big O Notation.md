@@ -71,7 +71,10 @@ while(lowIndex <= highIndex){
 * Selection Sort: iterates through the list to ensure every element at index i is the ith smallest/largest element of the list
 
 ## O(n log n)
+* Quick Sort: 
 
+## Sorting Algorithms Time and Space Complexity
+![Sorting Algorithms Time and Space Complexity](https://user-images.githubusercontent.com/93812258/184479288-200acee7-1605-4f4c-bfc3-8c987b62668d.png)
 
 ## Big O Notation Graph
 ![Big O Notation Graph](https://user-images.githubusercontent.com/93812258/184478719-733aa1ac-7b2b-47fa-90bd-a076898f8b65.png)\
