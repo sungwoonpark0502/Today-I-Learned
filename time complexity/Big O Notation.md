@@ -44,10 +44,11 @@ for(int i = 0; i < array.length; i++){
         // has O(n^2) time complexity
     }
  }
-__Types of O(n^2)__
-* Selection Sort: iterates through the list to ensure every element at index i is the ith smallest/largest element of the list
  ```
- 
- ### Data Structure Operations
+ __Types of O(n^2)__
+* Selection Sort: iterates through the list to ensure every element at index i is the ith smallest/largest element of the list
+
+
+ ## Data Structure Operations
 ![Data Structure Operations](https://user-images.githubusercontent.com/93812258/184476914-b0c1a7c6-1584-4795-a7a3-0b2ac71fdfdd.png)
 (From https://www.bigocheatsheet.com/)
