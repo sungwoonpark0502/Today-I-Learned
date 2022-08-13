@@ -24,7 +24,22 @@ for(int i = 0; i < array.length; i++){
 }
 ```
 
-
 ## O(log n): Logarithmic time complexity
+* Time it takes to run the algorithm is proportional to the logarithm of the input size n
+
+```java
+// Binary Search
+
+```
+
 ## O(n^2): Quadratic time complexity
- 
+ * Time to execution it is proportional to the square of the input size
+ * Simple example is to check if there are any duplicates in a deck of cards
+ ```java
+ for(int i = 0; i < length; i++){
+    // has O(n) time complexity
+    for(int j = 0; j < length; j++){
+        // has O(n^2) time complexity
+    }
+ }
+ ```
