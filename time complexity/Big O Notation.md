@@ -34,7 +34,26 @@ for(int i = 0; i < array.length; i++){
 * Time it takes to run the algorithm is proportional to the logarithm of the input size n
 
 ```java
-// Binary Search
+// Binary Search: repeatedly dividing the search interval in half
+
+int lowIndex = 0;
+int highIndex = arraySize - 1;
+int timesThrough = 0;
+
+while(lowIndex <= highIndex){
+  int middleIndex = (highIndex + lowIndex) / 2;
+  
+  if(theArray[middleIndex] < value){
+    lowIndex = middleIndex + 1;
+  }
+  else if(theArray[middleIndex] > value){
+    highIndex = middleIndex - 1;
+  }
+  else{
+    System.out.println("Found Match in Index " + middleIndex);
+  }
+  timesThrough++;
+}
 
 ```
 
@@ -51,7 +70,6 @@ for(int i = 0; i < array.length; i++){
  ```
  __Types of O(n^2)__
 * Selection Sort: iterates through the list to ensure every element at index i is the ith smallest/largest element of the list
-* Bublle Sort: 
 
 ## O(n log n)
 
