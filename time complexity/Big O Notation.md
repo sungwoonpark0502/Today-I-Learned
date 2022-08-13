@@ -52,7 +52,6 @@ while(lowIndex <= highIndex){
   else{
     System.out.println("Found Match in Index " + middleIndex);
   }
-  timesThrough++;
 }
 
 ```
