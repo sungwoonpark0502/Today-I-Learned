@@ -57,7 +57,7 @@ for(int i = 0; i < array.length; i++){
 
 
 ## Big O Notation Graph
-![Big O Notation Graph](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/)
+![Big O Notation Graph](https://user-images.githubusercontent.com/93812258/184478719-733aa1ac-7b2b-47fa-90bd-a076898f8b65.png)
 
 ## Data Structure Operations
 ![Data Structure Operations](https://user-images.githubusercontent.com/93812258/184476914-b0c1a7c6-1584-4795-a7a3-0b2ac71fdfdd.png)
