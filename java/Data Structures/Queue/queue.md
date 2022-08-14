@@ -35,3 +35,5 @@ queue.element(); // Retrieves, but does not remove, the head of this queue
 OR
 queue.peek(); // Retrieves and removes the head of this queue, or returns null if this queue is empty.
 ```
+
+![Queue-Deque-PriorityQueue-In-Java](https://user-images.githubusercontent.com/93812258/184536920-d0f22ced-dfdc-43ce-ada8-6e542735d587.png)
