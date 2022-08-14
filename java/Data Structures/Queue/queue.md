@@ -7,9 +7,15 @@
 import java.util.Queue
 import java.util.LinkedList;
 
-// in java, we need to use LinkedList to declare a Queue
+// LinkedList implementation of Queue
 Queue<Integer> queue = new LinkedList<>();
 Queue<String> queue2 = new LinkedList<>();
+
+// Array implementation of Queue
+Queue<String> queue3 = new ArrayDeque<>();
+
+// Priority Queue implementation of Queue
+Queue<String> queue4 = new PriorityQueue<>();
 
 // adding items
 queue.add(1);
