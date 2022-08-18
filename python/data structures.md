@@ -20,6 +20,10 @@ List of Tuples:
   coordinates = [4, 5]
   coordinates[0] = 10
   print(coordinates[0]) # prints 10 
+  
+  listA = list(range(5))
+  print(listA) # 1,2,3,4,5
+  print(type(listA)) # <class 'list'>
 ```
 2D Lists
 ```python
