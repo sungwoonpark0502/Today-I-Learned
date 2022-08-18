@@ -180,3 +180,6 @@ a.remove("a") # b, z, c, d
 # only use sort when the data types are same in the list
 a.sort() # b, c, d, z
 ```
+
+## Method
+.something()
