@@ -83,3 +83,67 @@ print(x2) """
            """
 print(x[2,3]) # 12
 ```
+* Slicing: brining a portion using index values
+```python
+x = np.arrage(7)
+print(x) # [0 1 2 3 4 5 6]
+print(x[1:4]) # [1 2 3]
+print(x[1:]) # [1 2 3 4 5 6]
+print(x[:4]) # [0 1 2 3]
+print(x[::2]) # [0 2 4 6] 2 space between
+
+x2 = np.arrage(1, 13, 1) # 1 to 13 increasing by 1
+x,shape = 3,4
+print(x) """ 
+           [[1 2 3 4]
+           [5 6 7 8]
+           [9 10 11 12]]
+           """
+# 1:2 means row 1, :2:3 means each 2 and increasing by 3
+print(x[1:2, :2:3]) # [[5]]
+print(x[1:,:2]) # [[5 6]
+                  [9 10]]
+```
+
+### Boolean Indexing
+* Using boolean mask, which is a mask array consisted of True and False
+```python
+x = np.arrage(7)
+print(x) # [0 1 2 3 4 5 6]
+# True if smaller than 3, False if not True
+print(x < 3) # [True True True False False False False]
+print(x > 7) # [False False False False False False False]
+
+print(x[x < 3]) # [0 1 2]
+# prints even numbers
+print(x[x % 2 == 0]) # [0 2 4 6]
+```
+
+### Fancy Indexing
+```python
+x = np.arrange(7)
+print(x) # [0 1 2 3 4 5 6]
+# what values are there in index 1, 3, and 5
+print(x[[1, 3, 5]]) # [1 3 5]
+
+x2 = np.arrage(1, 13, 1).reshape(3,4)
+print(x) """ 
+           [[1 2 3 4]
+           [5 6 7 8]
+           [9 10 11 12]]
+           """
+# print row 0 and row 2
+print(x[[0, 2]]) """
+                 [[1 2 3 4]
+                 [9 10 11 12]]
+                 """
+# row 1 and column 2
+print(x[1:2, 2]) # [7]
+# row 0 and row 2, column 2
+print(x[[0,2], 2]) # [3 11]
+# row 0 and row 2, column 0 to 1
+print(x[[0,2],:2]) """
+                   [[1 2]
+                   [9 10]]
+                   """
+```
