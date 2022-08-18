@@ -53,14 +53,22 @@ print(len(a)) # prints the length of the list, 4
 ## Dictionaries
 * Key and Value
 * Keys cannot be a duplicate, should be unique
+* Keys cannot be changed
 
 Creating a dictionary
 ```python
   # Jan is the Key and January is a value
-  monthConversions = { "Jan": "January", "Feb": "February"}
-  print(monthConversions["Jan"]) # January
-  print(monthConversions.get("Feb")) # February
-  print(monthConversions.get("Mar")) # None
-  print(monthConversions.get("Mar", "Not a valid Key")) # Not a valid Key
-
+  month = { "Jan": "January", "Feb": "February"}
+  print(month["Jan"]) # January
+  print(month.get("Feb")) # February
+  print(month.get("Mar")) # None
+  print(month.get("Mar", "Not a valid Key")) # Not a valid Key
+  
+  # adding an item into dictionary
+  month["Mar"] = March
+  # removing an item from dictionary
+  del month["Mar"]
+  
+  # tuple can be the Key but list cannot because lists can be modified
+  month[(1,2,3)] = "Tuple"
 ```
