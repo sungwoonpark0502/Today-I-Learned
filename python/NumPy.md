@@ -59,7 +59,7 @@ print("Size : {}".format(arr.size)) # Size : 6
 print("Length : {}".format(len(arr))) # Length : 3
 ```
 
-### Printing the numPy
+### Printing the ndarray
 ```python
 print(nameOfNumpy[2,3]) # prints elements in index (2,3)
 print(nameOfNumpy[0:2, 1:4]) # prints elements in index 0 to 1 and 1 to 3
@@ -67,3 +67,17 @@ print(nameOfNumpy[5]) # prints element in index 5
 ```
 
 ### Indexing & Slicing
+* Indexing: Finding the data/index
+```python
+x = np.arrange(7) # [0 1 2 3 4 5 6]
+print(x[3]) # 3
+print(x[7]) # Error
+x[0] = 10 # [10 1 2 3 4 5 6]
+
+x2 = np.arrange(1, 13, 1) # 1 to 13 and increasing by 1
+x2.shape = 3, 4 # 3 rows and 4 columns
+print(x2) # [[1 2 3 4]
+             [5 6 7 8]
+             [9 10 11 12]]
+print(x[2,3]) # 12
+```
