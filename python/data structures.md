@@ -31,6 +31,24 @@ List of Tuples:
   ]
   print(number_grid[2][1]) # prints 8
 ```
+```python
+a = ["a", "b", "c"]
+
+a.append("d") # a, b, c, d
+a.insert(2, "z") # a, b, z, c, d
+a.remove("a") # b, z, c, d
+# sort function sorts the list into alphabetical order or in increasing order
+# only use sort when the data types are same in the list
+a.sort() # b, c, d, z
+
+print(a[2:4]) # d, z
+print(a[:3]) # b, c, d
+print(a[-1]) # z
+print("b" in a) # true
+print("f" in a) # false
+print(len(a)) # prints the length of the list, 4
+
+```
 
 ## Dictionaries
 * Key and Value
@@ -38,11 +56,8 @@ List of Tuples:
 
 Creating a dictionary
 ```python
-  monthConversions = {
-    "Jan": "January",
-    "Feb": "February"
-   # Jan is the Key and January is a value
-  }
+  # Jan is the Key and January is a value
+  monthConversions = { "Jan": "January", "Feb": "February"}
   print(monthConversions["Jan"]) # January
   print(monthConversions.get("Feb")) # February
   print(monthConversions.get("Mar")) # None
