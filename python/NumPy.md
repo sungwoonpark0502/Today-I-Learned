@@ -5,7 +5,7 @@
 * Most of the datas could be seen as array of numbers
 * Fast calculation and low memory compared to python lists
 
-Using NumPy
+### Using NumPy
 ```python
 import numpy as np
 
@@ -14,6 +14,8 @@ print(npArr) # [1 2 3 4 5] no commas
 print(type(npArr)) # <class 'numpy.ndarray'> # ndarray: nth dimensional array
 ```
 * Can store only one type of variables in the array
+* Getting the data type: .dtype
+* Changing the data type: .astype()
 ```python
 arr = np.array([0, 1, 2, 3, 4], dtype=float)
 print(arr) # [0. 1. 2. 3. 4.] # in float
@@ -27,7 +29,7 @@ dytpe:
 * str: str, U, U32
 * bool: ?, bool_
 
-__ndarray__
+### ndarray
 
 One Dimension
 ```python
@@ -44,11 +46,24 @@ arr = np.array(list)
 print(arr.ndim) # 2
 print(arr.shape) # (2,3) 2 row and 3 column
 ```
-
+### Changing Shape, Size, and Length
 ```python
 arr = np.array([0,1,2,3,4,5])
 print("arr.shape : {}".format(arr.shape)) # arr.shape : (6,)
 print("Size : {}".format(arr.size)) # Size : 6
 print("Length : {}".format(len(arr))) # Length : 6
 
+arr.shape = 3, 2
+print("arr.shape : {}".format(arr.shape)) # arr.shape : (3,2)
+print("Size : {}".format(arr.size)) # Size : 6
+print("Length : {}".format(len(arr))) # Length : 3
 ```
+
+### Printing the numPy
+```python
+print(nameOfNumpy[2,3]) # prints elements in index (2,3)
+print(nameOfNumpy[0:2, 1:4]) # prints elements in index 0 to 1 and 1 to 3
+print(nameOfNumpy[5]) # prints element in index 5
+```
+
+### Indexing & Slicing
