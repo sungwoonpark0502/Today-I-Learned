@@ -48,6 +48,8 @@ print("b" in a) # true
 print("f" in a) # false
 print(len(a)) # prints the length of the list, 4
 
+# .pop(), .clear(), .count("anything")
+
 ```
 
 ## Dictionaries
@@ -64,6 +66,9 @@ Creating a dictionary
   print(month.get("Mar")) # None
   print(month.get("Mar", "Not a valid Key")) # Not a valid Key
   
+  print(month.keys()) # prints the keys
+  print(month.values()) # prints the values
+  
   # adding an item into dictionary
   month["Mar"] = March
   # removing an item from dictionary
@@ -71,4 +76,5 @@ Creating a dictionary
   
   # tuple can be the Key but list cannot because lists can be modified
   month[(1,2,3)] = "Tuple"
+  
 ```
