@@ -16,6 +16,7 @@ List of Tuples:
 
 ## Lists
 * Mutable (can change the elements)
+* can store different data types in one list
 ```python
   coordinates = [4, 5]
   coordinates[0] = 10
@@ -24,6 +25,8 @@ List of Tuples:
   listA = list(range(5))
   print(listA) # 1,2,3,4,5
   print(type(listA)) # <class 'list'>
+  
+  listB = [1, "1"] # int and string in one list
 ```
 2D Lists
 ```python
