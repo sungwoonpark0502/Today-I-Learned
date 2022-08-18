@@ -170,7 +170,6 @@ python3 #enter
 ```
 
 ## List
-
 ```python
 a = ["a", "b", "c"]
 
@@ -178,6 +177,6 @@ a.append("d") # a, b, c, d
 a.insert(2, "z") # a, b, z, c, d
 a.remove("a") # b, z, c, d
 # sort function sorts the list into alphabetical order or in increasing order
+# only use sort when the data types are same in the list
 a.sort() # b, c, d, z
-
 ```
