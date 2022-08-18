@@ -168,3 +168,16 @@ python3 #enter
 
 # now we can write python code
 ```
+
+## List
+
+```python
+a = ["a", "b", "c"]
+
+a.append("d") # a, b, c, d
+a.insert(2, "z") # a, b, z, c, d
+a.remove("a") # b, z, c, d
+# sort function sorts the list into alphabetical order or in increasing order
+a.sort() # b, c, d, z
+
+```
