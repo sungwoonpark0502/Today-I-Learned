@@ -76,8 +76,9 @@ x[0] = 10 # [10 1 2 3 4 5 6]
 
 x2 = np.arrange(1, 13, 1) # 1 to 13 and increasing by 1
 x2.shape = 3, 4 # 3 rows and 4 columns
-print(x2) # [[1 2 3 4]
-          # [5 6 7 8]
-           #[9 10 11 12]]
+print(x2) ``` [[1 2 3 4]
+           [5 6 7 8]
+           [9 10 11 12]]
+           ```
 print(x[2,3]) # 12
 ```
