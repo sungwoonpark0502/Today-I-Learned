@@ -26,7 +26,7 @@ List of Tuples:
   print(listA) # 1,2,3,4,5
   print(type(listA)) # <class 'list'>
   
-  listB = [1, "1"] # int and string in one list
+  listB = [1, "1", True, 1.1] # diff types in one list allowed
 ```
 2D Lists
 ```python
