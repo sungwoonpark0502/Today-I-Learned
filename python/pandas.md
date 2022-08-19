@@ -169,3 +169,5 @@ Adding new Data to DataFrame
 ![Image](https://user-images.githubusercontent.com/93812258/185694864-264cd45d-f336-46c5-bcba-84d90de40fef.png)
 Adding New Column
 ![a](https://user-images.githubusercontent.com/93812258/185695165-7627ca33-1d8b-4fb9-a0ba-5452b2d536ae.png)
+Deleting a Column
+![b](https://user-images.githubusercontent.com/93812258/185695414-0c3e258b-8e63-4ee6-be5a-bdaace5a8d9c.png)
