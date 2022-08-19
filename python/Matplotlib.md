@@ -69,6 +69,33 @@ ax.plot(x, x**2, label='y=x^2')
 ax.set_xlabel("x")
 ax.set_ylabel("y")
 ax.legend(loc='upper right', shadow=True, fancybox=True, borderpad=2)
+# fancybox = makes the edges round
+# boarderpad = size of the box(legend)
 ```
 ![](https://user-images.githubusercontent.com/93812258/185702409-35252d02-7ab6-44ba-bf3e-94cd3f093a6f.png)
+
+## Bar & Histogram
+
+### Bar Plot
+```python
+# bar
+x = np.arrange(10)
+fig, ax = plt.subplots(figsize=(12,4)) # ( horizonal, vertical)
+ax.bar(x, x*2) # (x,y)
+```
+![](https://user-images.githubusercontent.com/93812258/185703097-965ffe6f-edcc-4a7d-b924-05140ceb7b9f.png)
+
+```python
+x = np.random.rand(3)
+y = np.random.rand(3)
+z = np.random.rand(3)
+data = [x, y, z]
+fig, ax = plt.subplots()
+x_ax = np.arrange(3)
+for i in x_ax:
+  ax.bar(a_ax, data[i], bottom=np.sum(data[:i], axis=0))
+ax.set_xticks(x_ax)
+ax.set_xticklabels(["A", "B", "C"])
+```
+![](https://user-images.githubusercontent.com/93812258/185705288-e2e11300-0dbc-43fa-99a3-2570f117b8cb.png)
 
