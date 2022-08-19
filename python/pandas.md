@@ -149,3 +149,10 @@ Image B
 ![Image A](https://user-images.githubusercontent.com/93812258/185690418-b7d87fd2-ef2c-4288-85e9-fb3c57a0f9ea.png)
 Image C
 ![Image B](https://user-images.githubusercontent.com/93812258/185690447-46ceaf0e-0cd2-4cfc-afff-d7fdafb341f7.png)
+
+Using Masking and Query Function
+```python
+country[country['population'] < 10000] # using masking
+country.query("population > 10000") # using query function
+```
+![Image](https://user-images.githubusercontent.com/93812258/185691069-a14ffd3b-f322-48dc-ac8e-8aecf9982398.png)
