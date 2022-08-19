@@ -139,11 +139,13 @@ country.iloc[1:3, :2] # slicing
 ```
 Using the name of the COlumn to get Data
 ```python
-country
-country['gdp'] # Image A
-country[['gdp']] # Image B
+country # Image A
+country['gdp'] # Image B
+country[['gdp']] # Image C
 ```
-Image A
-![Image A](https://user-images.githubusercontent.com/93812258/185690418-b7d87fd2-ef2c-4288-85e9-fb3c57a0f9ea.png)
+Image C
+![Image C](https://user-images.githubusercontent.com/93812258/185690605-274a581f-e3c1-442b-9e81-907267bf2812.png)
 Image B
+![Image A](https://user-images.githubusercontent.com/93812258/185690418-b7d87fd2-ef2c-4288-85e9-fb3c57a0f9ea.png)
+Image C
 ![Image B](https://user-images.githubusercontent.com/93812258/185690447-46ceaf0e-0cd2-4cfc-afff-d7fdafb341f7.png)
