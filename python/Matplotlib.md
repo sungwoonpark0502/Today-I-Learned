@@ -37,3 +37,15 @@ ax.plot(x, x+4, color="0.8")
 ax.plot(x, x+6, color="#52FA1")
 ```
 ![](https://user-images.githubusercontent.com/93812258/185699572-442512d3-53b3-47a3-b40b-98a8a299974e.png)
+
+Marker
+```python
+x = np.arrange(10)
+fig, ax = plt.subplots()
+ax.plot(x, x, marker=".")
+ax.plot(x, x+2, marker="o")
+ax.plot(x, x+4, marker="v") # triangle shape
+ax.plot(x, x+6, marker="s") # square
+ax.plot(x, x+8, marker="*")
+```
+![](https://user-images.githubusercontent.com/93812258/185700044-c7552994-fcf0-413d-a460-636ab3a24d2c.png)
