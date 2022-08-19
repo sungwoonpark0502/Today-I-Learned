@@ -118,5 +118,12 @@ C     3     c
 ```
 ## Selecting/Chaning Data in DataFrame
 Two ways to find data:
-1. loc
+1. loc (often used)
 2. iloc
+```python
+country.loc['china'] # indexing
+country.loc['japan':'korea', 'population'] # slicing
+
+```
+Result of indexing from the code above
+![Indexing](ttps://user-images.githubusercontent.com/93812258/185689316-ba95131c-f031-4cee-b289-214a3625ac2d.png)
