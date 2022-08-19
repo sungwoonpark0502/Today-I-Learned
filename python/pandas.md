@@ -41,3 +41,14 @@ d 4
 dtype: int64
 """
 ```
+Can generate Series using Dictionary
+```python
+pop_dict = {'china': 141500, 'japan': 12718, 'korea': 5180}
+population = pd.Series(pop_dict)
+"""
+china 141500
+japan 12718
+korea 5180
+dtype: 32676
+"""
+```
