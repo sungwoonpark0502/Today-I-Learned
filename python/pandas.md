@@ -164,3 +164,6 @@ country['gdp_per_capita'] = gdp_per_capita
 ```
 Result from the above code
 ![result](https://user-images.githubusercontent.com/93812258/185693821-8c02d185-4e42-49fc-abda-73249e9fcf50.png)
+
+Adding new Data to DataFrame
+![Image](https://user-images.githubusercontent.com/93812258/185694864-264cd45d-f336-46c5-bcba-84d90de40fef.png)
