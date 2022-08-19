@@ -99,3 +99,11 @@ ax.set_xticklabels(["A", "B", "C"])
 ```
 ![](https://user-images.githubusercontent.com/93812258/185705288-e2e11300-0dbc-43fa-99a3-2570f117b8cb.png)
 
+### Histogram
+
+```python
+fig, ax = plt.subplots()
+data = np.random.randn(1000)
+ax.hist(data, bins=50)
+```
+![](https://user-images.githubusercontent.com/93812258/185705781-e470afc0-dc2b-4aba-8d6d-89f7dfb54853.png)
