@@ -103,7 +103,7 @@ ax.set_xticklabels(["A", "B", "C"])
 
 ```python
 fig, ax = plt.subplots()
-data = np.random.randn(1000)
-ax.hist(data, bins=50)
+data = np.random.randn(1000) # generate 1000 random data
+ax.hist(data, bins=50) # bins = stick
 ```
 ![](https://user-images.githubusercontent.com/93812258/185705781-e470afc0-dc2b-4aba-8d6d-89f7dfb54853.png)
