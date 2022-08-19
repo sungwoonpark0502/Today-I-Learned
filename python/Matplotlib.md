@@ -50,11 +50,25 @@ ax.plot(x, x+8, marker="*")
 ```
 ![](https://user-images.githubusercontent.com/93812258/185700044-c7552994-fcf0-413d-a460-636ab3a24d2c.png)
 
+Modifying
 ```python
-x = np.linspace(0,10,1000)
+x = np.linspace(0,10,1000) # start, end, step
 fig,ax = plt.subplots()
-ax.plot(x, np.sin(x))
-ax.set_xlim(-2,12)
-ax.set_ylim(-1.5, 1.5)
+ax.plot(x, np.sin(x)) # sin graph
+ax.set_xlim(-2,12) # x axis limit (-2 to 12)
+ax.set_ylim(-1.5, 1.5) # y axis limit (-1.5 to 1.5)
 ```
 ![](https://user-images.githubusercontent.com/93812258/185701466-8bccca00-0aab-44c0-9043-5b8687094f9b.png)
+
+Legend
+```python
+x = np.arrange(10)
+fig, ax = plt.subplots()
+ax.plot(x, x, label='y=x')
+ax.plot(x, x**2, label='y=x^2')
+ax.set_xlabel("x")
+ax.set_ylabel("y")
+ax.legend(loc='upper right', shadow=True, fancybox=True, borderpad=2)
+```
+![](https://user-images.githubusercontent.com/93812258/185702409-35252d02-7ab6-44ba-bf3e-94cd3f093a6f.png)
+
