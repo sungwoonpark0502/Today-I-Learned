@@ -156,3 +156,11 @@ country[country['population'] < 10000] # using masking
 country.query("population > 10000") # using query function
 ```
 ![Image](https://user-images.githubusercontent.com/93812258/185691069-a14ffd3b-f322-48dc-ac8e-8aecf9982398.png)
+
+Can use Series like a operator like numpy array
+```python
+gdp_per_capita = country['gdp'] / country['population']
+country['gdp_per_capita'] = gdp_per_capita
+```
+Result from the above code
+![result](https://user-images.githubusercontent.com/93812258/185693821-8c02d185-4e42-49fc-abda-73249e9fcf50.png)
