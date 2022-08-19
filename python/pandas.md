@@ -116,3 +116,7 @@ B     2     b
 C     3     c
 """
 ```
+## Selecting/Chaning Data in DataFrame
+Two ways to find data:
+1. loc
+2. iloc
