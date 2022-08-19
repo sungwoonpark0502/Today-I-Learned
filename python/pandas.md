@@ -73,6 +73,36 @@ japan   2       12718
 korea   3       5180
 """
 ```
+* Some methods
+```python
+print(country.shape) # (3,3)
+print(country.size) # 8
+print(country.ndim) # 2
+print(country.values) """
+                        [[1 141500]
+                         [2 12718]
+                         [3 5180]]
+                      """
+```
+* Assigning name to index and column
+```python
+country.index.name = "Country"
+country.columns.name = "Info"
+
+print(country.index) # Index(['china','japan','korea'], dtype='object', name='Country')
+print(country.columns) # Index(['gdp','population'], dtype='object', name='Info')
+```
+* Saving and Bring the DataFrame
+```python
+#saving
+country.to_csv("./country.csv")
+country.to_excel("country.xlsx")
+
+# bringing
+country = pd.read_csv("./country.csv")
+country = pd.read_excel("country.xlsx")
+```
+
 * Using Dictionary to make DataFrame
 ```python
 data = {'Name': ['A', 'B', 'C']}, 'age': [1, 2, 3], 'school': ['a', 'b', 'c']
