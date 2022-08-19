@@ -49,3 +49,12 @@ ax.plot(x, x+6, marker="s") # square
 ax.plot(x, x+8, marker="*")
 ```
 ![](https://user-images.githubusercontent.com/93812258/185700044-c7552994-fcf0-413d-a460-636ab3a24d2c.png)
+
+```python
+x = np.linspace(0,10,1000)
+fig,ax = plt.subplots()
+ax.plot(x, np.sin(x))
+ax.set_xlim(-2,12)
+ax.set_ylim(-1.5, 1.5)
+```
+![](https://user-images.githubusercontent.com/93812258/185701466-8bccca00-0aab-44c0-9043-5b8687094f9b.png)
