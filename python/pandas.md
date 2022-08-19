@@ -127,7 +127,23 @@ country.loc['japan':'korea', 'population'] # slicing
 ```
 Result of indexing from the code above
 * The numbers on the right are the gdp, which has been substitued by 1,2,3 in my case
-
 ![Indexing](https://user-images.githubusercontent.com/93812258/185689316-ba95131c-f031-4cee-b289-214a3625ac2d.png)
+
 Result of slicing from the code above
 ![Slicing](https://user-images.githubusercontent.com/93812258/185689516-8e679f25-c953-4743-93b3-8b501acc7985.png)
+```python
+country.iloc[0] # indexing
+country.iloc[1:3, :2] # slicing
+
+# result of the indexing and slicing is the same as the images above
+```
+Using the name of the COlumn to get Data
+```python
+country
+country['gdp'] # Image A
+country[['gdp']] # Image B
+```
+Image A
+![Image A](https://user-images.githubusercontent.com/93812258/185690418-b7d87fd2-ef2c-4288-85e9-fb3c57a0f9ea.png)
+Image B
+![Image B](https://user-images.githubusercontent.com/93812258/185690447-46ceaf0e-0cd2-4cfc-afff-d7fdafb341f7.png)
