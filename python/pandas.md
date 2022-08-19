@@ -126,4 +126,4 @@ country.loc['japan':'korea', 'population'] # slicing
 
 ```
 Result of indexing from the code above
-![Indexing](ttps://user-images.githubusercontent.com/93812258/185689316-ba95131c-f031-4cee-b289-214a3625ac2d.png)
+![Indexing](https://user-images.githubusercontent.com/93812258/185689316-ba95131c-f031-4cee-b289-214a3625ac2d.png)
