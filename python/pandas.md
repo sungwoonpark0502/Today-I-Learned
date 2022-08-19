@@ -54,6 +54,8 @@ dtype: int64
 ```
 ## DataFrame
 * Many Series are combined to make DataFrame with rows and columns
+
+* Using many series to make a DataFrame
 ```python
 # Dictionary for population
 pop_dict = {'china': 141500, 'japan': 12718, 'korea': 5180}
@@ -69,5 +71,18 @@ country = pd.DataFrame({'gdp': gdp, 'population': population})
 china   1       141500
 japan   2       12718
 korea   3       5180
+"""
+```
+*Using Dictionary to make DataFrame
+```python
+data = {'Name': ['A', 'B', 'C']}, 'age': [1, 2, 3], 'school': ['a', 'b', 'c']
+person = pd.DataFrame(data)
+person = person.set_index('person')
+"""
+person
+---------------
+A     1     a
+B     2     b
+C     3     c
 """
 ```
