@@ -1,10 +1,10 @@
-## Pandas
+# Pandas
 
 * Python Library
 * For data manipulation and analysis
 * Made out of NumPy
 
-### Series Data
+## Series Data
 
 ```python
 import  pandas as pd
@@ -49,6 +49,25 @@ population = pd.Series(pop_dict)
 china 141500
 japan 12718
 korea 5180
-dtype: 32676
+dtype: int64
+"""
+```
+## DataFrame
+* Many Series are combined to make DataFrame with rows and columns
+```python
+# Dictionary for population
+pop_dict = {'china': 141500, 'japan': 12718, 'korea': 5180}
+population = pd.Series(pop_dict)
+# Dictionary for GDP
+gdp_dict = {'china': 1, 'japan': 2, 'korea': 3}
+gdp = pd.Series(gdp_dict)
+
+# DataFrame
+country = pd.DataFrame({'gdp': gdp, 'population': population})
+"""
+      gdp     population
+china   1       141500
+japan   2       12718
+korea   3       5180
 """
 ```
