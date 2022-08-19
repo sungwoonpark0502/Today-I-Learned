@@ -73,7 +73,7 @@ japan   2       12718
 korea   3       5180
 """
 ```
-*Using Dictionary to make DataFrame
+* Using Dictionary to make DataFrame
 ```python
 data = {'Name': ['A', 'B', 'C']}, 'age': [1, 2, 3], 'school': ['a', 'b', 'c']
 person = pd.DataFrame(data)
