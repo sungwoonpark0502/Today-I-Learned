@@ -126,6 +126,7 @@ country.loc['japan':'korea', 'population'] # slicing
 
 ```
 Result of indexing from the code above
+* The numbers on the right are the gdp, which has been substitued by 1,2,3 in my case
 ![Indexing](https://user-images.githubusercontent.com/93812258/185689316-ba95131c-f031-4cee-b289-214a3625ac2d.png)
 Result of slicing from the code above
 ![Slicing](https://user-images.githubusercontent.com/93812258/185689516-8e679f25-c953-4743-93b3-8b501acc7985.png)
