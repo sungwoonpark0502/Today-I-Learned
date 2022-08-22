@@ -66,6 +66,11 @@ This Equation will change the datas to be between 0 ~ 1
 data = (data-data.mean())/data.std()
 ```
 
+3. 다변량 수치형 자료 변환하기
+```python
+data = (data-data.min(axis = 0))/(data.max(axis = 0)-data.min(axis = 0))
+```
+
  ### Categorization
  * Used when category is more important than the variable value
 
