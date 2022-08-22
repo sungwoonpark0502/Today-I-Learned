@@ -52,12 +52,20 @@ Methods: Scaling(Normalization & Standardization) and Categorization
 This Equation will change the datas to be between 0 ~ 1
 ![](https://user-images.githubusercontent.com/93812258/186038282-7176ab03-8199-4ecb-9b25-b74f6df30a1a.png)
 
+```python
+    data = (data-data.min())/(data.max()-data.min())
+```
+
  2. Standardization
  
  This equation will chagne the datas' average to be 0 and standard deviation to 1
  
  ![](https://user-images.githubusercontent.com/93812258/186039239-f378d77c-1195-47c1-8900-221342df785d.png)
  
+```python
+data = (data-data.mean())/data.std()
+```
+
  ### Categorization
  * Used when category is more important than the variable value
 
