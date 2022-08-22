@@ -37,4 +37,19 @@ Norminal Data: Blue Square, if categoric size matters
 
 ### Data Processing for Norminal Data
 * Mapping the Numbers (수치 맵핑 방식)
+  * Examples and code written above
 
+## Processing Numerical Data
+
+Methods: Scaling(Normalization & Standardization) and Categorization
+
+### Scaling Method
+* Changing the size and range
+* Use when there's a difference between the feature
+
+1. Normalization
+
+This Equation will change the datas to be between 0 ~ 1
+![](https://user-images.githubusercontent.com/93812258/186038282-7176ab03-8199-4ecb-9b25-b74f6df30a1a.png)
+
+ 
