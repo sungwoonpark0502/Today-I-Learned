@@ -19,7 +19,11 @@ Norminal Data: Blue Square, if categoric size matters
 ### Data Processing for Ordinal Data
 * Mapping Numbers (수치 맵핑 방식)
   * One example of this method is to change the category to numbers. Ex) Male = 1 and Female = 0
- 
+  ```python
+  # using replace to change male to 1 and female to 0
+  titanic = pd.read_csv('./data/titanic.csv')
+  titanic = titanic.replace({'male': 0, 'female': 1})
+  ```
 * Dummy Method
   * Example
   ![]()
