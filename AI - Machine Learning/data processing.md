@@ -25,14 +25,15 @@ Norminal Data: Blue Square, if categoric size matters
   titanic = titanic.replace({'male': 0, 'female': 1})
   ```
 * Dummy Method
-  * Example
-  ![]()
-  <img width="547" alt="Screen Shot 2022-08-23 at 8 17 52 AM" src="https://user-images.githubusercontent.com/93812258/186036058-45ab51f6-a816-4b65-97fc-5a3aceabee72.png">
-
+  
   ```python
   titanic = pd.read_csv('./data/titanic.csv')
   dummies = pd.get_dummies(titanic[['Embarked']])
   ```
+  
+  * Example
+  ![]()
+  <img width="547" alt="Screen Shot 2022-08-23 at 8 17 52 AM" src="https://user-images.githubusercontent.com/93812258/186036058-45ab51f6-a816-4b65-97fc-5a3aceabee72.png">
 
 ### Data Processing for Norminal Data
 * Mapping the Numbers (수치 맵핑 방식)
