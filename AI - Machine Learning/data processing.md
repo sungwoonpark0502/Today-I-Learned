@@ -52,4 +52,15 @@ Methods: Scaling(Normalization & Standardization) and Categorization
 This Equation will change the datas to be between 0 ~ 1
 ![](https://user-images.githubusercontent.com/93812258/186038282-7176ab03-8199-4ecb-9b25-b74f6df30a1a.png)
 
+ 2. Standardization
  
+ This equation will chagne the datas' average to be 0 and standard deviation to 1
+ 
+ ![](https://user-images.githubusercontent.com/93812258/186039239-f378d77c-1195-47c1-8900-221342df785d.png)
+ 
+ ### Categorization
+ * Used when category is more important than the variable value
+
+Example: Predicting if the grade is above average. In this case, the grade itself is not important compared to whether it is above average or not.
+
+![](https://user-images.githubusercontent.com/93812258/186039527-e4696dc2-b755-44f2-94aa-3867e3b98ca2.png)
