@@ -80,7 +80,17 @@ Example: Predicting if the grade is above average. In this case, the grade itsel
 
 ## Data Cleansing
 * Eliminating Missing Data(Null, None, Nan, etc)
-  * Ways to do this:0
+  * Ways to do this:
     * Deleting the sample that the missing data is in
     * Deleting the variable that has numerous missing data
     * Exchanging the missing data to other value
+* Eliminating Outlier
+  * Outlier can reduce the model's performance
+
+
+## Splitting Data
+* Splitting the data to training data and test data
+* Usually 7:3 ~ 8:2 = training data : test data
+* Splitting Supervised Learning Data into:
+  * Feature Data: to predict the label
+  * Label Data: data that's targeted to be predicted
