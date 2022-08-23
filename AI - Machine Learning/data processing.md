@@ -77,3 +77,10 @@ data = (data-data.min(axis = 0))/(data.max(axis = 0)-data.min(axis = 0))
 Example: Predicting if the grade is above average. In this case, the grade itself is not important compared to whether it is above average or not.
 
 ![](https://user-images.githubusercontent.com/93812258/186039527-e4696dc2-b755-44f2-94aa-3867e3b98ca2.png)
+
+## Data Cleansing
+* Eliminating Missing Data(Null, None, Nan, etc)
+  * Ways to do this:0
+    * Deleting the sample that the missing data is in
+    * Deleting the variable that has numerous missing data
+    * Exchanging the missing data to other value
