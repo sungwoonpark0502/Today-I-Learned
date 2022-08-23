@@ -94,3 +94,6 @@ Example: Predicting if the grade is above average. In this case, the grade itsel
 * Splitting Supervised Learning Data into:
   * Feature Data: to predict the label
   * Label Data: data that's targeted to be predicted
+  
+  Predicting the number of survivers:
+  ![](https://user-images.githubusercontent.com/93812258/186041115-0177f8e9-e2b3-4ec5-974f-14d12c0d2562.png)
