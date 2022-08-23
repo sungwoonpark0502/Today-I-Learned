@@ -84,9 +84,20 @@ Example: Predicting if the grade is above average. In this case, the grade itsel
     * Deleting the sample that the missing data is in
     * Deleting the variable that has numerous missing data
     * Exchanging the missing data to other value
+    
+```python
+# Eliminating Missing Data
+titanic_1 = titanic.drop(columns=['Cabin']) # deletes Cabin variable
+
+titanic_2 = titanic_1.dropna() # deletes the sample that contains missing data
+
+```
+
 * Eliminating Outlier
   * Outlier can reduce the model's performance
-
+```python
+titanic_3 = titanic_2[titanic_2['Age']-np.floor(titanic_2['Age']) == 0 ]
+```
 
 ## Splitting Data
 * Splitting the data to training data and test data
@@ -97,3 +108,12 @@ Example: Predicting if the grade is above average. In this case, the grade itsel
   
   Predicting the number of survivers:
   ![](https://user-images.githubusercontent.com/93812258/186041115-0177f8e9-e2b3-4ec5-974f-14d12c0d2562.png)
+
+```python
+# splitting feature data and label data
+X = titanic_3.drop(columns=['Survived'])
+y = titanic_3['Survived']
+
+# Splitting the X and y data into training and test data
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+```
