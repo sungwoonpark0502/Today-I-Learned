@@ -34,3 +34,8 @@ pred_X = lrmodel.predict(train_X)
 
 ### Multiple Linear Regression
 * Used when we are trying to predict Y with many input data X1
+![](https://user-images.githubusercontent.com/93812258/186107646-f124c2f9-1fcd-468f-b7cf-c3eae5c0b9f2.png)
+
+```python
+
+```
