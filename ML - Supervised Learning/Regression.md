@@ -43,7 +43,32 @@ pred_X = lrmodel.predict(train_X)
 X = df.drop(columns=['Sales'])
 Y = df['Sales']
 
+"""
 2. 2:8 비율로 (test_size = 0.2) X와 Y를 학습용과 평가용 데이터로 분리합니다.
 """
 train_X, test_X, train_Y, test_Y = train_test_split(X, Y, test_size=0.2, random_state=42) 
+
+"""
+1.  다중 선형 회귀 모델을 초기화 하고 학습합니다
+"""
+lrmodel = LinearRegression() # LinearRegression 모델을 초기화 합니다.
+lrmodel.fit(train_X, train_Y) # train_X와 train_Y 데이터로 모델을 학습합니다.
+
+"""
+2. 학습된 파라미터 값을 불러옵니다
+"""
+beta_0 = lrmodel.intercept_ # y절편 (기본 판매량)
+beta_1 = lrmodel.coef_[0] # 1번째 변수에 대한 계수 (페이스북)
+beta_2 = lrmodel.coef_[1] # 2번째 변수에 대한 계수 (TV)
+beta_3 = lrmodel.coef_[2] # 3번째 변수에 대한 계수 (신문)
+
+"""
+1. test_X에 대해서 예측합니다.
+"""
+pred_X = lrmodel.predict(test_X) # predict()를 활용해서 예측합니다.
+
+"""
+2. df1에 대해서 예측합니다.
+"""
+pred_df1 = lrmodel.predict(df1) # predict()를 활용해서 예측합니다.
 ```
