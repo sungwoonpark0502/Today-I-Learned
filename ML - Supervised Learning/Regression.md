@@ -72,3 +72,54 @@ pred_X = lrmodel.predict(test_X) # predict()를 활용해서 예측합니다.
 """
 pred_df1 = lrmodel.predict(df1) # predict()를 활용해서 예측합니다.
 ```
+
+# Evaluating Linear Regression
+* Ex) RSS, MSE, MAE, MAPE, R^2
+
+RSS
+
+![](https://user-images.githubusercontent.com/93812258/186613166-bb197707-9916-4940-8a34-dda8d1dd087d.png)
+
+```python
+"""
+1. train_X 의 RSS 값을 계산합니다
+"""
+RSS_train = np.sum( (train_Y - pred_train) ** 2) # 예측값과 실제값의 오차제곱합을 구합니다.
+```
+
+MSE
+![](https://user-images.githubusercontent.com/93812258/186614186-07980026-e240-4cde-97af-0becf014d31c.png)
+
+```python
+"""
+1. train_X 의 MSE 값을 계산합니다
+"""
+MSE_train = mean_squared_error(train_Y, pred_train) # mean_squared_error() 를 활용해서 MSE를 계산합니다.
+```
+
+MAE
+![](https://user-images.githubusercontent.com/93812258/186614371-64ff017c-0c26-4047-a5f1-f33907b82820.png)
+
+```python
+"""
+1. train_X 의 MAE 값을 계산합니다
+"""
+MAE_train = mean_absolute_error(train_Y, pred_train) # mean_absolute_error() 를 활용해서 MAE를 계산합니다.
+```
+
+R2
+* Lower the R^2, worser the model is
+
+![](https://user-images.githubusercontent.com/93812258/186615231-95543369-1373-46fb-8766-a4f08194cd42.png)
+
+```python
+"""
+1. train_X 의 R2 값을 계산합니다
+"""
+R2_train = r2_score(train_Y, pred_train) # r2_score()를 활용하여 R2값을 계산합니다.
+
+"""
+2. test_X 의 R2 값을 계산합니다
+"""
+R2_test = r2_score(test_Y, pred_test) # r2_score()를 활용하여 R2값을 계산합니다.
+```
