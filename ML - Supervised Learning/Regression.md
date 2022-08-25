@@ -37,5 +37,13 @@ pred_X = lrmodel.predict(train_X)
 ![](https://user-images.githubusercontent.com/93812258/186107646-f124c2f9-1fcd-468f-b7cf-c3eae5c0b9f2.png)
 
 ```python
+"""
+1. Sales 변수는 label 데이터로 Y에 저장하고 나머진 X에 저장합니다.
+"""
+X = df.drop(columns=['Sales'])
+Y = df['Sales']
 
+2. 2:8 비율로 (test_size = 0.2) X와 Y를 학습용과 평가용 데이터로 분리합니다.
+"""
+train_X, test_X, train_Y, test_Y = train_test_split(X, Y, test_size=0.2, random_state=42) 
 ```
