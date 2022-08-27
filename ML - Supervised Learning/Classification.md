@@ -31,3 +31,28 @@ pred_X = DTmodel.predict(test_X)
 ![](https://user-images.githubusercontent.com/93812258/187019092-ca6ed2fa-c12a-4157-aa90-b6b501103272.png)
 
 ![](https://user-images.githubusercontent.com/93812258/187019309-b116093f-f4b7-4f34-ba7a-3ee8762a328b.png)
+
+```python
+"""
+1. 혼동 행렬을 계산합니다
+"""
+cm = confusion_matrix(test_Y, y_pred) # confusion_matrix() 를 활용하여 혼동행렬을 계산합니다.
+
+"""
+1. 정확도를 계산합니다.
+"""
+acc_train = DTmodel.score(train_X, train_Y) # score() 함수를 활용하여 정확도를 계산합니다.
+acc_test = DTmodel.score(test_X, test_Y)
+
+"""
+1. 정밀도를 계산합니다.
+"""
+precision_train = precision_score(train_Y, y_pred_train) # precision_score()를 활용하여 정밀도를 계산합니다.
+precision_test = precision_score(test_Y, y_pred_test)
+
+"""
+2. 재현율을 계산합니다.
+"""
+recall_train = recall_score(train_Y, y_pred_train) # recall_score()를 활용하여 재현율을 계산합니다.
+recall_test = recall_score(test_Y, y_pred_test)
+```
