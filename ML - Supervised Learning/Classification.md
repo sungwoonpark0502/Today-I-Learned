@@ -28,4 +28,6 @@ pred_X = DTmodel.predict(test_X)
 ## Confusion Matrix
 ![](https://user-images.githubusercontent.com/93812258/187019054-f08c3642-f6db-4fc2-96d0-f0601c05f35c.png)
 
-![](https://user-images.githubusercontent.com/93812258/187019092-ca6ed2fa-c12a-4157-aa90-b6b501103272.png )
+![](https://user-images.githubusercontent.com/93812258/187019092-ca6ed2fa-c12a-4157-aa90-b6b501103272.png)
+
+![](https://user-images.githubusercontent.com/93812258/187019309-b116093f-f4b7-4f34-ba7a-3ee8762a328b.png)
